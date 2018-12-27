@@ -38,4 +38,6 @@ end
 def using_uniq(arr)
   return arr.uniq
 end 
+
+def using_flatten
   

@@ -27,7 +27,7 @@ def using_concat(arr1, arr2)
 end
 
 def using_insert(arr, ele)
-  arr.insert(4, ele)
+  return arr.insert(4, ele)
 end
   
   
@@ -44,11 +44,11 @@ def using_flatten(arr)
 end 
 
 def using_delete(arr, string)
-  arr.delete(string)
+  return arr.delete(string)
 end
 
 def using_delete_at(arr, int)
-  arr.delete_at(int)
+  return arr.delete_at(int)
 end
   
   

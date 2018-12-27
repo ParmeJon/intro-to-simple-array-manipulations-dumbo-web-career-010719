@@ -39,5 +39,7 @@ def using_uniq(arr)
   return arr.uniq
 end 
 
-def using_flatten
+def using_flatten(arr)
+  return arr.flatten 
+end 
   
